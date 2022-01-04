@@ -10,6 +10,7 @@
 #include <fstream>
 #include <sstream>
 #include <cstring>
+#include <stdio.h>
 
 Server::Server() {
     pthread_mutex_init(&this->usersFileMutex, NULL);
